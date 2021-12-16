@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo su
+yum update -y 
+yum install httpd php -y
+sudo service httpd start
+sudo useradd -m -p 1234 -U ansible

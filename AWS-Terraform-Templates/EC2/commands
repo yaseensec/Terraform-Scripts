@@ -1,0 +1,1 @@
+aws ec2 describe-images --image-ids ami-085b76e8b1bce90b --region ap-south-1 | jq -r '.Images[0].OwnerId'1

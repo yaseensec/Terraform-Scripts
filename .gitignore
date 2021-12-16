@@ -1,5 +1,5 @@
 **/.terraform
 **/.terraform.lock.hcl
-Terraform-Associate-Labs
-ansible-swarm-playbook
-terraform-aws-labs
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/terraform.tfstate.d/
