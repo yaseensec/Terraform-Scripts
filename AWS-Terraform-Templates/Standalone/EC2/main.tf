@@ -14,8 +14,7 @@ provider "aws" {
 
 variable "vpcid" {
   type = string
-  default = "vpc-138fbc7b"
-  
+  default = "vpc-138fbc7b" 
 }
 
 resource "aws_key_pair" "terraform-key" {
@@ -62,6 +61,5 @@ resource "aws_instance" "terraform-ec2" {
   tags = {
     Name = "terraform-ec2-instance"
   }
-  
 }
 

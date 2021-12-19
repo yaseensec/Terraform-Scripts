@@ -20,6 +20,5 @@ resource "aws_instance" "terraform-ec2" {
   tags = {
     Name = "EC2-Name-${module.Shared-Vars.env-suffix-output}"
   }
-  
 }
 

@@ -25,4 +25,3 @@ module "Key-Pair" {
 module "Security-Group" {
     source = "./Security_Group"
 }
-
